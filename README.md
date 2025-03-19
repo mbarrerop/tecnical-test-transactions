@@ -1,4 +1,11 @@
 # **Prueba Técnica - Detección de Fraudes en Transacciones**
+---
+
+## **📌 Stack**
+
+1. **Flask** como framework de desarrollo.
+2. **GCP** como cloud services (no es necesario implementarlo, solo identificar que se necesita para el despligue).
+3. **Python superior a 3.10** para el scripting necesario.
 
 ## **📌 Contexto del Problema**
 En una plataforma de comercio electrónico, se registran miles de transacciones diariamente. Sin embargo, la empresa ha identificado que algunas de estas transacciones pueden ser fraudulentas, lo que genera pérdidas económicas y afecta la confianza de los clientes. Actualmente, las transacciones se almacenan en archivos CSV, y se necesita un sistema automatizado para identificarlas y gestionarlas de manera eficiente.
@@ -87,7 +94,7 @@ El código debe incluir:
 ✅ **Base de datos con una tabla separada** para almacenar transacciones sospechosas junto con el motivo de sospecha.  
 ✅ `README.md` → Documentación con instrucciones de uso y despliegue.  
 ✅ **Pruebas unitarias** en cada módulo.  
-✅ Configuración para **desplegar en Google Cloud Run o AWS Lambda**.  
+✅ Configuración para **desplegar en Google Cloud Run**.  
 
 ---
 
