@@ -64,6 +64,8 @@ El sistema tiene **cuatro módulos principales**:
 - La tarea debe ser enviada a un **endpoint en la API (`/process-fraud`)**.
 - Asegurar que la tarea incluya los datos necesarios para su análisis posterior.
 
+📌 **Nota**: Nuestro Google Cloud Task es simulado, debe existir un endpoint que pueda recibir estas tasks **endpoint `/tasks`** de forma asincrona y las redirija al **endpoint `/process-fraud`**.
+
 ### **4️⃣ Procesamiento de Tareas en Cloud Tasks (`fraud_processor`)**
 📌 **Objetivo**: Cloud Tasks llama al endpoint `/process-fraud` para analizar transacciones sospechosas.
 
